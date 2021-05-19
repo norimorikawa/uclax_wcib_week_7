@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  background-image: url("../images/white-paper-texture.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30%; }
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  margin: 10px;
+  color: #555; }
+
+div {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto; }
+
+.card {
+  padding: 1% 10% 5% 10%;
+  margin: 0px 10% 0px 10%;
+  height: 95%;
+  background-image: url("../images/polkadot_bg.png"); }
+
+.illustration {
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px; }
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:active {
+  color: #555;
+  background-color: #daf1f2;
+  border-color: #63bac6;
+  margin: 10px; }
+
+.btn-primary:hover {
+  background-color: #8ccad1;
+  border-color: #63bac6;
+  margin: 10px; }
+
+.btn-secondary,
+.btn-secondary:visited,
+.btn-secondary:active {
+  color: #555;
+  background-color: #ffe6ee;
+  border-color: #ff7b9e;
+  margin: 10px; }
+
+.btn-secondary:hover {
+  background-color: #ffafbf;
+  border-color: #ff7b9e;
+  margin: 10px; }
+
+.effect5 {
+  position: relative; }
+
+.effect5:before, .effect5:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 35px 20px #777;
+  transform: rotate(-8deg); }
+
+.effect5:after {
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto; }
